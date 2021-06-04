@@ -6,7 +6,7 @@ const workout = new mongoose.Schema({
     exercises: [exercise],
 });
 
-let model = mongoose.model('workoutDB', workout);
+let model = mongoose.model('workout', workout);
 
 model.aggregate([
     {
